@@ -9,7 +9,8 @@
   - Background Image Plus  -- Set window backgound picture.
   - Grep console   -- Custom console log color.
 - Function Plugins
-  - SonarLint
+  - SonarLint 
+  - EasyCode
   - idea-gitignore
   - Free Mybatis plugin   -- navigating interface to xml in MyBatis.
   - MyBatis Log Plugin  -- convert console log sql sentence.
