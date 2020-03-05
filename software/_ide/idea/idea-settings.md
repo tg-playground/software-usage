@@ -2,15 +2,43 @@
 
 Content
 
-- Case-insensitive code completion
-- Change font size with Ctrl+Mouse Wheel
+- Appearance
+  - Font Size
+    - Change font size with Ctrl+Mouse Wheel
+    - Change font size permanently
+- Coding
+  - Code completion
+  - Maven Settings
 
-## Case-insensitive code completion
+
+
+## Appearance
+
+### Font Size
+
+#### Change font size with Ctrl+Mouse Wheel
+
+File → Settings → Editor → General → (checked) Change font size (Zoom) with Ctrl+Mouse Wheel
+
+#### Change font size permanently
+
+File → Settings → Editor -> Font -> Size: 14
+
+## Coding
+
+### code completion
+
+#### Case-insensitive code completion
 
 Preferences -> Editor -> General -> Code Completion
 
 or search "Code Completion" in settings
 
-## Change font size with Ctrl+Mouse Wheel
+#### Match Case All letters
 
-File → Settings → Editor → General → (checked) Change font size (Zoom) with Ctrl+Mouse Wheel
+Uncheck `Match case`
+
+### Maven Settings
+
+- Maven home directory, maven settings file, maven local repository
+- Auto import pom.xml change
