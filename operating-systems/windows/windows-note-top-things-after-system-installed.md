@@ -34,6 +34,10 @@ Installing `DriverGenius` software or downloaded drivers exe
 
 See config
 
+### Update Windows App Color to dark color
+
+Win + x --> settings --> Personalization --> Colors --> Choose your color: Dark
+
 ## Over GFW
 
 - v2ray
