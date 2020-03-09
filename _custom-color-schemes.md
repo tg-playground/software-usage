@@ -17,7 +17,7 @@ Text Color: `#DEDEDE` (white)
 
 Background color: `#292929` (dark)
 
-Text Color: `#ffffff` (white), `#719FE6`(blue)
+Text Color: `#ffffff`, `#EEEEEE` (white)
 
 ### Green Scheme
 

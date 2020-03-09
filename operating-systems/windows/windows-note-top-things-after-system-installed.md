@@ -77,7 +77,7 @@ Office
 
 Editor
 
-- notepad++
+- Sublime Text
 - Typora
 
 languages 
@@ -107,18 +107,19 @@ Database Systems
 
 - Windows
 - Microsoft Office
+- Intellij IDEA. active by 挑粪王子公众号
+- Sublime Text search from cn.bing.com
 
-------------------------------------------------------
+
 
 ## More Software
 
-### Office Software
+Office Software
 
 - Microsoft Visio
 - Microsoft Project
-### Pro Software
 
-- Intellij IDEA. active by 挑粪王子公众号
+Pro Software
 
 
 
