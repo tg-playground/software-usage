@@ -45,7 +45,11 @@ ctrl f, ctrl b, ctrl d, ctrl u
 
 // select, cut, copy, paste
 v, V, x, y, yy, p, 10+p
-dd, 10+dd, x, dw, df {char}, dt {char}, di", da"
+dd, 10+dd, x, dw, 
+df {char} // delete from current location forward to input char
+dt {char} // delete from cuurent location back to input char
+di", // remove content in "" 
+da" // remove content and ""
 
 // undo, redo
 u, ctrl r

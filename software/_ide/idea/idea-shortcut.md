@@ -1,8 +1,48 @@
 # Idea Shortcuts
 
+### Navigation
+
+- (MY) Recent files: Alt + E (Shift + Enter: open file in new window)
+- Jump to Navigation Bar: Alt + Home
+- Navigate - File Structure: Ctrl + F12
+- Jump to Test: Ctrl + Shift + T
+- (MY) Navigate - Declare or Usage: Alt + B
+- Show Current File Location in Project: Alt + F1 -> project view
+
+### Windows
+
+- Window Up: Ctrl + Shift + Up
+- Window Down: Ctrl + Shift + Down
+- Current Window Maximum: Ctrl + Shift + F12
+- Close Current Window: Shift + Esc
+- Open Terminal Window: Alt + F12
+- Open Project Window: Alt + 1 
+- Open REST Client (Search by Ctrl + Shift + A)
+
+### Create File
+
+- (MY) New: Alt + N
+
+### Run
+
+- Run Current File: Alt + Shift + F10 
+- Run Last: Shit + F10
+- Run Menu: Shift + Alt + F10
+- (MY) Debug Current File: Alt + Shift + F9
+- Debug Last: Shift + F9
+- Debug Menu: Shift + Alt + F9
+
+Coding
+
+- Language Injection -> Inject JSON: Alt + Enter
+
+
+
+---
+
+
+
 ### Finding & Navigating
-
-
 
 **Double Shift** : Search everywhere
 
