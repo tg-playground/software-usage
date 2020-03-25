@@ -10,20 +10,26 @@ Content
 ## Common Operations
 
 ```shell
-git clone <file path>
+git clone <file_path>
 git status
 git diff
-git add <file path>
+git add <file_path>
 git add -A
-git commit <file path>
+# reset `git add`
+git reset <file_path>
+git commit <file_path>
+# reset `git commit`
+git reset HEAD~1
 git push
 git push -u origin master
+# revert the specified pushed version
+git revert <commit_hash>
 git fetch origin master:temp
 git diff temp
 git merge
 git pull
 git log
-git checkout <commit hash>
+git checkout <commit_hash>
 ```
 
 create new local repository
