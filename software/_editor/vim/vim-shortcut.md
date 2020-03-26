@@ -1,5 +1,7 @@
 # Vim Shortcut
 
+### View Mode
+
 ```
 // move
 j, k, l, h, 10j, H, M, L
@@ -53,5 +55,20 @@ da" // remove content and ""
 
 // undo, redo
 u, ctrl r
+```
+
+### Insert Mode
+
+```
+Ctrl + w // remove content in ""
+```
+
+### Command Mode
+
+```
+# replace all (global) in all lines
+:%s/{search_val}/{replace_val}/g
+# replace all (global) in specified lines 
+:{start_line},{end_line}s/{search_val}/{replace_val}/g
 ```
 
