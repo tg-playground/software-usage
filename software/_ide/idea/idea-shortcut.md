@@ -2,12 +2,17 @@
 
 ### Navigation
 
-- (MY) Recent files: Alt + E (Shift + Enter: open file in new window)
-- Jump to Navigation Bar: Alt + Home
-- Navigate - File Structure: Ctrl + F12
-- Jump to Test: Ctrl + Shift + T
-- (MY) Navigate - Declare or Usage: Alt + B
+- Go to Navigation Bar: Alt + Home
+- Go to Test: Ctrl + Shift + T
+- (MY) Go to Declare or Usage: Alt + B
+- Go to Implementation: Ctrl + Alt + B
+- Go to Super Method: Ctrl + U
 - Show Current File Location in Project: Alt + F1 -> project view
+
+### View
+
+- Display File Structure: Ctrl + F12
+- (MY) Display Recent files: Alt + E (Shift + Enter: open file in new window)
 
 ### Windows
 
