@@ -2,7 +2,7 @@
 
 ## Windows + key
 
-### 系统设置和工具
+**系统设置和工具**
 
 Windows + A：打开操作中心。
 
@@ -34,7 +34,7 @@ Windows + ; ：调用表情包（英文输入法状态下使用）
 
 Windows + Shift + S：调用系统截图工具。（截图后 ctrl + V 可粘贴使用）
 
-### 软件窗口
+**软件窗口**
 
 Windows + 1：快速显示第一个软件窗口。
 
@@ -48,7 +48,7 @@ Windows + ←：窗口靠左。
 
 Windows + →：窗口靠右。
 
-### 系统桌面
+**虚拟桌面**
 
 Windows + tab：切换虚拟桌面。
 
@@ -66,7 +66,7 @@ alt + tab：切换窗口。
 
 alt + f4：关闭窗口。
 
-## Ctrl（Control）
+## Ctrl（Control）+ key
 
 ctrl + A：全选文本、文件。
 
@@ -82,7 +82,7 @@ ctrl + Z：撤销（ctrl + shift + Z：重做）
 
 ctrl + Y：重做。
 
-文件或文件夹
+**文件或文件夹**
 
 ctrl + C：拷贝文本、文件或文件夹。
 
@@ -98,7 +98,7 @@ ctrl + shift + N：新建文件夹。
 
 鼠标右键 + W + T：新建文本文件。
 
-文本内容
+**文本内容**
 
 ctrl + S：保存。
 
@@ -108,7 +108,7 @@ ctrl + I：字体变为斜体。
 
 ctrl + U：字体加下划线。
 
-其它
+**其它**
 
 ctrl + alt + Delete：打开任务管理器。
 
