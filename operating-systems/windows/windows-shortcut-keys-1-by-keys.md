@@ -78,7 +78,7 @@ ctrl + End：回到底部。
 
 ctrl + O：程序中打开文件。
 
-ctrl + Z：撤销。
+ctrl + Z：撤销（ctrl + shift + Z：重做）
 
 ctrl + Y：重做。
 
