@@ -1,5 +1,9 @@
 # Git Config
 
+- `--local`. Local config for current project.
+- `--global`. **Global** configs are available for all projects for the current user and stored in `~/. gitconfig`.
+- `--system`. **System** configs are available for all the users/projects and stored in `/etc/gitconfig`. 
+
 Examine
 
 ```
