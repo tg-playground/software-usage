@@ -32,13 +32,37 @@ git config --global --unset https.https://github.com.proxy
 
 ## Update hosts
 
+1. Get IP
+
 Find the best IP for `github.global.ssl.fastly.net`, and `github.com` from [https://www.ipaddress.com](https://link.zhihu.com/?target=https%3A//www.ipaddress.com/)
+
+2. Update hosts
+
+hosts on Windows: `C:\Windows\System32\drivers\etc\hosts`
+
+hosts on Linux: `/etc/hosts`
 
 ```
 # Speed Up GitHub from China
 199.232.69.194 github.global.ssl.fastly.net
-140.82.113.4 github.com
+140.82.114.3 github.com
 ```
+
+3. Update DNS
+
+Windows
+
+```
+ipconfig /flushdns
+```
+
+Linux
+
+```
+sudo /etc/init.d/networking restart
+```
+
+References: [git clone速度太慢的解决办法](https://www.cnblogs.com/lywJ/p/11038611.html)
 
 ## Final Solutions
 
@@ -48,4 +72,6 @@ Find the best IP for `github.global.ssl.fastly.net`, and `github.com` from [http
 git config --global http.postBuffer 524288000
 ```
 
-2. Set proxy "global" for proxy client.
+2. Update hosts
+
+I have not use proxy client.
