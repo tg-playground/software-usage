@@ -4,6 +4,8 @@ Operating Systems
 
 - Microsoft Windows
 - Linux
+- Unix
+- Solaris
 
 Software
 
