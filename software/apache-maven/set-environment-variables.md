@@ -16,3 +16,6 @@ Unset Maven Environment Variables
 export MAVEN_OPTS=""
 ```
 
+## References
+
+[1] [Configuring Apache Maven](http://maven.apache.org/configure.html)
