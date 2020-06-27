@@ -45,10 +45,12 @@ Normal Directories
   - pro
   - office
 - Repositories
-  - git
-  - svn
-  - maven
+  - GitRepo
+  - SvnRepo
+  - mavenRepo
   - JARs
+  - docs
+  - LocalRepo
 - Resources
   - materials
   - res-audio
