@@ -3,23 +3,39 @@
 Content
 
 - Common Operations
-- Cancel Local Operations
+- Initialize a Git Repository
 - Versions
 - Branches
 
 ## Common Operations
 
+Working Directory (Workspace)
+
 ```shell
 # get source code from remote repository
 git clone <file_path>
+
+# Switch to a version of repository
+git log
+git checkout <commit_hash>
+
+# Switch to a branch
+git branch
+git checkout {branch_name}
+git checkout -
 
 # check your changes
 git status
 git diff
 
-# reset new changes(not git add)
+# remove new changes(not git add)
 git checkout .
+git restore .
+```
 
+Staging Area (Index Stage), (Staged)
+
+```shell
 # Add changes to the staging area
 git add <file_path>
 git add .
@@ -27,13 +43,29 @@ git add -A
 
 # reset `git add`
 git reset <file_path>
+git restore --staged <file_path>
+```
 
+Local Git Directory (Local Repository) (Committed)
+
+```shell
 # commit to local repository
 git commit <file_path>
 
 # reset `git commit`
 git reset HEAD~1
 
+# merge multiple commits to one commit
+git rebase -i <commit_hash>
+git rebase -i HEAD~<before_latest_commit_number>
+
+# reset `git rebase`
+git rebase --abort
+```
+
+Remote Git Directory (Pushed)
+
+```shell
 # push to remote repository
 git push
 git push -u origin master
@@ -46,11 +78,11 @@ git fetch origin master:temp
 git diff temp
 git merge
 git pull
-
-# Switch to a version of repository
-git log
-git checkout <commit_hash>
 ```
+
+
+
+## Initialize a Git Repository
 
 create new local repository
 
@@ -71,22 +103,6 @@ git push -u origin master
 
 
 
-## Cancel Local Operations
-
-### Cancel local `git add`
-
-```shell
-git reset <file path>
-```
-
-### Cancel Local `git commit`
-
-```shell
-git reset HEAD~1
-```
-
-
-
 ## Versions
 
 ### Checkout HEAD version and Remove Local Uncommit Modify
@@ -98,7 +114,7 @@ git checkout HEAD .
 ### Getting hashes for the previous versions
 
 ```shell
-git checkout <commitHash>
+git checkout <commit_hash>
 ```
 
 ### Undo Detached (Returning to the latest version in the master branch)
@@ -110,7 +126,7 @@ git checkout master
 ### View Specified Version File
 
 ```shell
-git show <commitHash>:/path/to/file
+git show <commit_hash>:/path/to/file
 ```
 
 
@@ -122,12 +138,12 @@ git show <commitHash>:/path/to/file
 git branch
 git branch -a
 # create
-git branch {new branch name}
-git checkout -b {new branch name}
+git branch {new_branch_name}
+git checkout -b {new_branch_name}
 # delete
-git branch -d {delete branch name}
+git branch -d {branch_name}
 # switch
-git checkout {branch name}
+git checkout {branch_name}
 git checkout -
 ```
 
