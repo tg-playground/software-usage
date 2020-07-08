@@ -51,6 +51,8 @@ Local Git Directory (Local Repository) (Committed)
 ```shell
 # commit to local repository
 git commit <file_path>
+git commit -m "<commit_message>"
+git commit -am "<commit_message>"
 
 # reset `git commit`
 git reset HEAD~1
