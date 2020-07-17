@@ -6,6 +6,8 @@ Edit `Dockerfile` of your project:
 #
 # Build stage
 #
+
+# our base build image
 FROM maven:3.5.3-jdk-8-alpine AS maven
 # copy the project files
 COPY ./pom.xml ./pom.xml
@@ -44,6 +46,12 @@ Docker run
 ```
 docker run -d -p 8080:80 <your_image_name>
 ```
+
+- -p: Create a port mapping rule like -p `ip:hostPort:containerPort`. `containerPort` is required. If no hostPort is specified, Docker will automatically allocate one.
+- 80: your application listening port.
+- 8080: client http connection port.
+
+Visit web project url: `http://<your_server_ip>/8080`
 
 
 
