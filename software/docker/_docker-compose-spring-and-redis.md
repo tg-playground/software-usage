@@ -169,3 +169,4 @@ private Jedis jedis = new Jedis("cache", 6379);
 
 [2] [compose file reference - docker docs](https://docs.docker.com/compose/compose-file/)
 
+[3] [Communication between Spring Boot and Redis containers - Stack Overflow](https://stackoverflow.com/questions/46135373/communication-between-spring-boot-and-redis-containers)
