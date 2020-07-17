@@ -57,5 +57,8 @@ Visit web project url: `http://<your_server_ip>/8080`
 
 ## References
 
-[1] [Optimizing Docker Images for Maven Projects](http://whitfin.io/speeding-up-maven-docker-builds/)
-
+- dockerize maven project
+  - [How to dockerize maven project? and how many ways to accomplish it? - Stack Overflow](https://stackoverflow.com/questions/27767264/how-to-dockerize-maven-project-and-how-many-ways-to-accomplish-it)
+- Docker maven cache
+  - [Optimizing Docker Images for Maven Projects](http://whitfin.io/speeding-up-maven-docker-builds/)
+  - [Caching Maven dependencies in a Docker build](https://medium.com/@nieldw/caching-maven-dependencies-in-a-docker-build-dca6ca7ad612)
