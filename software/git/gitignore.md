@@ -39,5 +39,8 @@ target
 
 # vs code files
 .vscode
+
+# docker files
+.env
 ```
 
