@@ -1,8 +1,13 @@
 # Docker Compose Spring and Redis
 
+**Content**
 
+- Compose Java and Redis 
+- Redis Configurations
 
-## Default Method
+## Compose Java and Redis 
+
+### Default Method
 
 **1.`docker-compose.yml`** 
 
@@ -37,7 +42,7 @@ Each container can now look up the hostname `web` or `db` and get back the appro
 private Jedis jedis = new Jedis("redis", 6379);
 ```
 
-## Links method
+### Links method
 
 Links allow you to define extra aliases by which a service is reachable from another service.
 
@@ -161,6 +166,92 @@ private Jedis jedis = new Jedis("redis", 6379);
 private Jedis jedis = new Jedis("cache", 6379);
 ```
 
+## Redis Configurations
+
+methods
+
+- Override redis configurations by specify key-value in docker files or application configuration.
+- Specify a custom `redis.conf`.
+
+
+
+Download a version of `redis.conf` sample file from [Redis Configuration](https://redis.io/topics/config).
+
+### Specify password of Redis in Docker file
+
+` docker-compose.yml`
+
+Use Docker’s CMD override feature with Docker Compose:
+
+You’re likely using Compose and it’s really easy to set a password without any config file shenanigans. If you happen to not be using Compose, you can just override the `CMD` by passing in a custom command to the end of `docker run`.
+
+```yaml
+redis:
+    image: 'redis:4-alpine'
+    # to set a custom password
+    command: redis-server --requirepass yourpassword
+    volumes:
+      - ./docker/redis/redis.conf:/usr/local/etc/redis/redis.conf
+    ports:
+      - '6379:6379'
+```
+
+### Specify password of Redis in redis.conf
+
+```yaml
+services:
+...
+redis:  
+  image: redis
+  command: redis-server /usr/local/etc/redis/redis.conf
+  volumes:
+    - ./docker/redis/redis.conf:/usr/local/etc/redis/redis.conf
+  ports:
+    - "6379:6379"
+```
+
+### Specify password on environment file
+
+Specify password on environment file, and gitignore the .env file.
+
+.env
+
+```
+my_redis_pswd=yourpassword
+```
+
+docer-compose.yml
+
+```yaml
+version: "3.8"
+services:
+
+  webapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - TZ=Asia/Shanghai
+  redis:
+    image: "redis:alpine"
+    command: redis-server --requirepass ${my_redis_pswd}
+```
+
+Run compose
+
+```shell
+# default environment file root directory .env
+docker-compose up
+#or
+docker-compose --env-file ./docker/.env up
+```
+
+### Manage sensitive data with Docker secrets
+
+... TODO
+
 
 
 ## References
@@ -170,3 +261,11 @@ private Jedis jedis = new Jedis("cache", 6379);
 [2] [compose file reference - docker docs](https://docs.docker.com/compose/compose-file/)
 
 [3] [Communication between Spring Boot and Redis containers - Stack Overflow](https://stackoverflow.com/questions/46135373/communication-between-spring-boot-and-redis-containers)
+
+Redis Configurations
+
+- [Docker-compose , anyway to specify a redis.conf file? - Stack Overflow](https://stackoverflow.com/questions/30547274/docker-compose-anyway-to-specify-a-redis-conf-file)
+- [Run Redis with Compose](https://kb.objectrocket.com/redis/run-redis-with-docker-compose-1055)
+- [bitnami/redis](https://hub.docker.com/r/bitnami/redis/)
+- [Setting a Password on Redis without a Custom Config](https://nickjanetakis.com/blog/docker-tip-27-setting-a-password-on-redis-without-a-custom-config)
+- [Environment variables in Compose](https://docs.docker.com/compose/environment-variables/)
