@@ -217,7 +217,7 @@ Specify password on environment file, and gitignore the .env file.
 .env
 
 ```
-my_redis_pswd=yourpassword
+REDIS_AUTH=yourpassword
 ```
 
 docer-compose.yml
@@ -236,7 +236,7 @@ services:
       - TZ=Asia/Shanghai
   redis:
     image: "redis:alpine"
-    command: redis-server --requirepass ${my_redis_pswd}
+    command: redis-server --requirepass ${REDIS_AUTH}
 ```
 
 Run compose
@@ -250,7 +250,60 @@ docker-compose --env-file ./docker/.env up
 
 ### Manage sensitive data with Docker secrets
 
-... TODO
+create a secret
+
+```shell
+# Create a secret
+printf <secret> | docker secret create my_secret -
+# Create a secret with a file
+docker secret create my_secret ./secret.json
+
+# status
+docker secret ls
+```
+
+```
+printf "yourpassword" | docker secret create redis_pass -
+```
+
+To connect this node to swarm
+
+```
+docker swarm init
+```
+
+docer-compose.yml
+
+```yaml
+######### TODO
+
+version: "3.8"
+services:
+
+  webapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - TZ=Asia/Shanghai
+  redis:
+    image: "redis:alpine"
+    secrets:
+      - redis_pass
+    environment:
+        REDIS_PASS_FILE: /run/secrets/redis_pass
+    command: [
+      "bash", "-c",
+      '
+       docker-entrypoint.sh
+       --requirepass "$$(cat $$REDIS_PASS_FILE)"
+      '
+    ]
+```
+
+
 
 
 
@@ -268,4 +321,5 @@ Redis Configurations
 - [Run Redis with Compose](https://kb.objectrocket.com/redis/run-redis-with-docker-compose-1055)
 - [bitnami/redis](https://hub.docker.com/r/bitnami/redis/)
 - [Setting a Password on Redis without a Custom Config](https://nickjanetakis.com/blog/docker-tip-27-setting-a-password-on-redis-without-a-custom-config)
-- [Environment variables in Compose](https://docs.docker.com/compose/environment-variables/)
+- [Environment variables in Compose - docker docs](https://docs.docker.com/compose/environment-variables/)
+- [Docker and securing passwords](https://stackoverflow.com/questions/22651647/docker-and-securing-passwords)
