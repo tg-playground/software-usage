@@ -1,19 +1,19 @@
 # custom Color Schemes
 
-# 哈哈π
+Content
 
-- Text Color
-- Background color
+- Dark Scheme
+- Green Scheme
 
 ### Dark Scheme
 
-1
+1.Reference "Typora Night Theme"
 
 Background Color:`#363B40` (dark)
 
 Text Color: `#DEDEDE` (white)
 
-2
+2.Basic Night Style
 
 Background color: `#292929` (dark)
 
