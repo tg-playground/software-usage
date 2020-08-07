@@ -137,6 +137,8 @@ Shift+F6 : Rename.
 
 **Ctrl + Shift + up** / down : Exchange line.
 
+**Alt + Caps Lock**: Select vertically.
+
 
 
 ### Navigation
