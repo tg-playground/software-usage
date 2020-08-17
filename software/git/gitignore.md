@@ -3,11 +3,20 @@
 Java Project
 
 ```
-# Compiled file
-*.class
-
 # Log file
 *.log
+
+# docker files
+.env
+
+# temporary files
+.temp
+
+# Project Generating Files Begin 
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+# Compiled file
+*.class
 
 # BlueJ files
 *.ctxt
@@ -23,6 +32,9 @@ Java Project
 *.zip
 *.tar.gz
 *.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
 
 # ignore Maven generated target folders
 target
@@ -40,7 +52,7 @@ target
 # vs code files
 .vscode
 
-# docker files
-.env
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>
+# Project Generating Files End 
 ```
 
