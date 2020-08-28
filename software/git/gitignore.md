@@ -10,7 +10,7 @@ Java Project
 .env
 
 # temporary files
-.temp
+*.temp
 
 # Project Generating Files Begin 
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
