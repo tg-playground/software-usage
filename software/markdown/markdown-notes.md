@@ -19,6 +19,7 @@
 - Other
   - [line between](#lb)
   - [Ignore Markdown formatting](#imf)
+  - Cite
 
 段落
 
@@ -247,13 +248,25 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 
 [back to content](#content)
 
+## Cite
 
-### References:
+Example 1:
 
-Mastering Markdown <https://guides.github.com/features/mastering-markdown/>
+> The secret to creativity is knowing how to hide your sources. 
+> -- <cite>[Albert Einstein][1]</cite>
 
-Basic writing and formatting syntax <https://help.github.com/en/articles/basic-writing-and-formatting-syntax>
+[1]: http://www.quotedb.com/quotes/2112	"the title"
 
-Markdown: Syntax <https://daringfireball.net/projects/markdown/syntax>
+
+
+## References
+
+- Mastering Markdown <https://guides.github.com/features/mastering-markdown/>
+
+- Basic writing and formatting syntax <https://help.github.com/en/articles/basic-writing-and-formatting-syntax>
+
+- Markdown: Syntax <https://daringfireball.net/projects/markdown/syntax>
+
+- [Citing the author of a blockquote using Markdown syntax](https://stackoverflow.com/questions/2002120/citing-the-author-of-a-blockquote-using-markdown-syntax)
 
 --END--
