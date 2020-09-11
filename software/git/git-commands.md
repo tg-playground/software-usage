@@ -44,6 +44,22 @@ git add -A
 # reset `git add`
 git reset <file_path>
 git restore --staged <file_path>
+
+# stash
+# to record the current state of the working directory
+git stash (same with git stash push)
+# list statsh
+git stash list
+# show difference
+git stash show
+# restore from stash
+git stash apply
+# Remove a single stashed state from the stash list and apply it on top
+git stash pop
+# Remove a single stash entry from the list of stash entries.
+git stash drop [-q|--quiet] <stash_id>
+# Remove all the stash entries
+git stash clear
 ```
 
 Local Git Directory (Local Repository) (Committed)
