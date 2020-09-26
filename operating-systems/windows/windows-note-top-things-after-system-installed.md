@@ -51,8 +51,10 @@ Web Browser
 
 IM
 
-- Wechat, update file save path
-- QQ, update file save path
+- WeChat
+  - Update file save path
+- QQ
+  - Update file save path
 
 File Viewer
 
@@ -64,12 +66,14 @@ File Handler
 
 Download
 
-- Thunder, update file save path
+- Thunder
+  - Update download path
 
 Office
 
 - Microsoft Office
 - QTTabBar
+  - Setting: Open File Explorer -> menu: View -> Option -> QTTabBar
 
 ## Installing Professional Software
 
@@ -82,15 +86,27 @@ Editor
 
 languages 
 
-- jdk, config JAVA_HOME
+- jdk
+  - Add JAVA_HOME system variable to path
+  - Verify by `java -version`
+- Python
+- Node
+
+project Management
+
+- apache maven
+  - Add M2_HOME system variable to path
+  - Verify by `mvn -version`
+  - Config `/conf/settings.xml`, add aliyun mirror
+- git
+  - generate key in ~/.ssh/id_rsa, id_rsa_pub
+  - Add public key to GitHub
+  - Verify by `ssh -T git@github.com`
 
 IDE
 
-- Intellij IDEA, other settings -> settings for new project -> maven
-
-project
-- apache maven, config M2_HOME
-- git, Connect to GitHub
+- Intellij IDEA
+  - other settings(New Projects Settings) -> settings for new project -> Build, Execution, Deployement -> Build Tools -> Maven -> maven home directory, user setting file
 
 ### Service
 
@@ -101,6 +117,7 @@ Web Server
 Database Systems
 
 - MySQL
+  - MySQL Server, MySQL Workbench, Connector/J
 
 
 ## Active Windows System and Software
