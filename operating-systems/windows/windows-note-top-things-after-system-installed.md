@@ -85,6 +85,8 @@ languages
 - jdk
   - Add JAVA_HOME system variable to path
   - Verify by `java -version`
+- Python
+- Node
 
 project Management
 
@@ -99,7 +101,8 @@ project Management
 
 IDE
 
-- Intellij IDEA, other settings -> settings for new project -> maven
+- Intellij IDEA
+  - other settings(New Projects Settings) -> settings for new project -> Build, Execution, Deployement -> Build Tools -> Maven -> maven home directory, user setting file
 
 ### Service
 
@@ -110,6 +113,7 @@ Web Server
 Database Systems
 
 - MySQL
+  - MySQL Server, MySQL Workbench, Connector/J
 
 
 ## Active Windows System and Software
