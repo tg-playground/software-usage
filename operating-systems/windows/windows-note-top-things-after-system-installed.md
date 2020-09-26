@@ -82,15 +82,24 @@ Editor
 
 languages 
 
-- jdk, config JAVA_HOME
+- jdk
+  - Add JAVA_HOME system variable to path
+  - Verify by `java -version`
+
+project Management
+
+- apache maven
+  - Add M2_HOME system variable to path
+  - Verify by `mvn -version`
+  - Config `/conf/settings.xml`, add aliyun mirror
+- git
+  - generate key in ~/.ssh/id_rsa, id_rsa_pub
+  - Add public key to GitHub
+  - Verify by `ssh -T git@github.com`
 
 IDE
 
 - Intellij IDEA, other settings -> settings for new project -> maven
-
-project
-- apache maven, config M2_HOME
-- git, Connect to GitHub
 
 ### Service
 
