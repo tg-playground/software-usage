@@ -9,16 +9,18 @@
   - Background Image Plus  -- Set window backgound picture.
   - Grep console   -- Custom console log color.
 - Function Plugins
-  - **SonarLint** 
-  - **JSON Viewer**
-  - **Alibaba Java Coding Guidelines**  -- code specification check.
-  - **Lombok**
-  - **Key promoter**   -- tip your using shortcut key.
-  - EasyCode
+  - [x] **SonarLint** 
+  - [x] **Alibaba Java Coding Guidelines**  -- code specification check.
+  - [x] **JSON Viewer**
+  - [x] String Manipulation  -- string text format conversion.
+  - [x] IdeaVim
+  - [x] PlantUML
+  - [x] **Lombok**
+  - [x] **Key promoter**   -- tip your using shortcut key.
   - idea-gitignore
+  - EasyCode
   - Free Mybatis plugin   -- navigating interface to xml in MyBatis.
   - MyBatis Log Plugin  -- convert console log sql sentence.
-  - String Manipulation  -- string text format conversion.
   - Gsonformat   -- generating entity class by json string.
   - Restfultookit  -- find Spring Controller uri.
   - JRebel  -- Hot deployment project.
