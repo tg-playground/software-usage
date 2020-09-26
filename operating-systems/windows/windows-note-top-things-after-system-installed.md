@@ -51,8 +51,10 @@ Web Browser
 
 IM
 
-- Wechat, update file save path
-- QQ, update file save path
+- WeChat
+  - Update file save path
+- QQ
+  - Update file save path
 
 File Viewer
 
@@ -64,12 +66,14 @@ File Handler
 
 Download
 
-- Thunder, update file save path
+- Thunder
+  - Update download path
 
 Office
 
 - Microsoft Office
 - QTTabBar
+  - Setting: Open File Explorer -> menu: View -> Option -> QTTabBar
 
 ## Installing Professional Software
 
