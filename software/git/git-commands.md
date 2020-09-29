@@ -45,6 +45,18 @@ git add -A
 git reset <file_path>
 git restore --staged <file_path>
 
+# remove Untracked files
+# see which files will be deleted before you run the actual command
+git clean -n
+# delete the files for real
+git clean -f
+# To remove directories
+git clean -f -d
+# To remove ignored files
+git clean -f -X
+# To remove ignored and non-ignored files
+git clean -f -x
+
 # stash
 # to record the current state of the working directory
 git stash (same with git stash push)
@@ -163,5 +175,12 @@ git branch -d {branch_name}
 # switch
 git checkout {branch_name}
 git checkout -
+
+# Fetch branch
+git fetch <remote_branch>:<local_branch>
+
+# Create a branch from another branch
+git checkout -b <new_branch> <from_branch>
+git push origin <new_branch>
 ```
 
