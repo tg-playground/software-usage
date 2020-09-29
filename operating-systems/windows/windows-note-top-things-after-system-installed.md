@@ -107,6 +107,26 @@ IDE
 
 - Intellij IDEA
   - other settings(New Projects Settings) -> settings for new project -> Build, Execution, Deployement -> Build Tools -> Maven -> maven home directory, user setting file
+- Eclipse
+- MyEclipse
+
+Database Client
+
+- Heidisql
+- FastoRedis
+
+Design
+
+- XMind
+- Project
+- PowerDesigner
+
+Others
+
+- Postman
+- Xshell
+- Xftp
+- TeamViewer
 
 ### Service
 
@@ -118,6 +138,7 @@ Database Systems
 
 - MySQL
   - MySQL Server, MySQL Workbench, Connector/J
+- Redis
 
 
 ## Active Windows System and Software
