@@ -90,7 +90,8 @@ languages
   - Add JAVA_HOME system variable to path
   - Verify by `java -version`
 - Python
-- Node
+- Node.js
+  - Install Hexo `npm install hexo-cli -g`
 
 project Management
 
