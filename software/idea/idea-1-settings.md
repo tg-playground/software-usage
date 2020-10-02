@@ -7,7 +7,25 @@ Content
     - Change font size with Ctrl+Mouse Wheel
     - Change font size permanently
 - Keymap
-  - Recent Files
+  
+  - [x] Recent Files
+- Editor
+  - General
+    - Editor Tabs
+      - [x] Uncheck Show tabs in one row
+    
+  - [x] File and Code Templates
+  
+    ```
+    #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+    #parse("File Header.java")
+    /**
+     * 
+     * @author ${USER}
+     */
+    public class ${NAME} {
+    }
+    ```
 - Build, Execution, Deployement
   - Build Tools
     - Maven
