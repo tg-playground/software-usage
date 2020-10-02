@@ -4,7 +4,9 @@
 
 To disable Intel Graphics shortcuts. Open "Intel Graphics Command Center" or "Intel HD Graphics Control Panel".
 
+Ctrl + Shift + Left => Ctrl + Shift + F2
 
+Ctrl + Shift + Right => Ctrl + Shift + F3
 
 ## Shortcuts
 
