@@ -9,12 +9,12 @@
   - Background Image Plus  -- Set window backgound picture.
   - Grep console   -- Custom console log color.
 - Function Plugins
-  - [x] **SonarLint** 
-  - [x] **Alibaba Java Coding Guidelines**  -- code specification check.
-  - [x] **JSON Viewer**
-  - [x] String Manipulation  -- string text format conversion.
-  - [x] IdeaVim
-  - [x] PlantUML
+  - [x] **SonarLint** (Ctrl + Shift + S)
+  - [x] **Alibaba Java Coding Guidelines**  -- code specification check. (Ctrl + Shift + Alt + J) （**Setting: 切换语言至英文**）
+  - [x] **JSON Viewer** (Find Action)
+  - [x] **String Manipulation**  -- string text format conversion. （Alt + M）
+  - [x] **IdeaVim**
+  - [x] **PlantUML**
   - [x] **Lombok**
   - [x] **Key promoter**   -- tip your using shortcut key.
   - idea-gitignore

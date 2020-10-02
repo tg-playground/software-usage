@@ -6,11 +6,23 @@ Content
   - Font Size
     - Change font size with Ctrl+Mouse Wheel
     - Change font size permanently
-- Coding
-  - Code completion
-  - Maven Settings
+- Keymap
+  - Recent Files
+- Build, Execution, Deployement
+  - Build Tools
+    - Maven
+      - [x] Maven home directory: $M2_HTOM
+      - [x] User settings file: $M2_HOME/conf/settings.xlm
+      - [x] Local repository: default
+  - Compiler
+    - [x] Project bytecode version: 8
+  - [ ] Code completion
   - File Template
   - Live Templates
+
+## Install Plugins
+
+## Update Shortcuts
 
 
 

@@ -1,175 +1,134 @@
 # Idea Shortcuts
 
-### Navigation
+## Settings
+
+To disable Intel Graphics shortcuts. Open "Intel Graphics Command Center" or "Intel HD Graphics Control Panel".
+
+
+
+## Shortcuts
+
+- Settings
+  - Open Settings: Ctrl + Alt + S
+  - Open Project Structure: Ctrl + Shift + Alt + S
+- Navigate
+  - Navigate in File
+    - **Jump to Navigation Bar**: Alt + Home
+    - **Go to Test**: Ctrl + Shift + T
+    - **Go to Declaration or Usage**: Ctrl + B ((MY) **Go to Declare or Usage**: Alt + B)
+    - **Go to Type Declaration**: Ctrl + Shift + B //Go to class definition
+    - **Go to Implementation**: Ctrl + Alt + B
+    - **Go to Super Method**: Ctrl + U
+    - Next Method: Alt + Down
+    - Previous Method: Alt + Up
+    - File Structure: Ctrl + F12
+    - Previous Occurrence: Ctrl + Alt + Up
+    - Next Occurrence: Ctrl + Alt + Down
+    - Next group element: Page Down / Ctrl + Down
+    - Previous group element: Page Up / Ctrl + Up
+  - Show Current File Location in Project: Alt + F1 -> project view
+  - Navigate
+    - **Back**: Ctrl + Alt + Left // Need to disable Intel Graphics shortcuts. Open "Intel Graphics Command Center" or "Intel HD Graphics Control Panel"
+    - **Forward**: Ctrl + Alt + Right
+    - **Double Shift** : Search everywhere
+    - **Find Class**: Ctrl + N
+    - **Find File**: Ctrl + Shift + N
+    - **Find Symbol**: Ctrl + Alt + Shift + N
+    - **Find Action**: Ctrl + Shift + A
+    - Go to Line: Ctrl + G
+- View
+  - Recent Files: Ctrl + E ((MY) View Recent files: Alt + E (Shift + Enter: open file in new window))
+  - **Parameter Info (Methods)**: Ctrl + P
+  - **Quick Documentation (Methods)**: Ctrl + Q
+  - Context info (Class): Alt + Q
+  - Brief Info: Ctrl+ mouse over code
+  - Error Description: Ctrl + F1
+- Edit
+  - **Select vertical lines**: Shift + Alt + Mouse Move
+  - Duplicate Line: Ctrl + D
+  - **Toggle Case**: Ctrl + Shift + U
+  - Extend Selection: Ctrl + W
+  - Shrink Selection: Ctrl + Shift + W
+  - **Move Caret to Code Block End**: Ctrl + ]
+  - **Move Caret to Code Block Start**: Ctrl + [
+    - Move Caret to Matching Brace: Ctrl + Shift + M
+  - Delete Line: Ctrl + Y
+  - **Start New Line**: Shift + Enter
+  - Find Usage
+    - **Highlight Usages in File**: Ctrl + Shift + F7
+    - **Find Usage** (Variables or methods): Alt + F7
+    - Find Usage in File: Ctrl + F7
+  - Find
+    - Find: Ctrl + F
+    - Replace: Ctrl + R
+    - **Find in path**: Ctrl + Shift + F
+    - **Replace in path**: Ctrl + Shift + R
+    - Find Next Occurrence: F3 / Ctrl + L
+- Code
+  - Code 0
+    - **Move Statement Up**: Ctrl + Shift + Up
+    - **Move Statement Down**: Ctrl + Shift + Down
+  - Code 1
+    - Override Methods: Ctrl + O
+    - Implement Methods: Ctrl + I
+    - Code Generate: Alt + Insert
+  - Code 2
+    - Comment: Ctrl + /
+    - Reformat Code: Ctrl + Alt + L
+    - Auto-Indent Lines: Ctrl + Alt + I
+    - Optimize Imports: Ctrl + Alt + O
+  - Refactor
+    - Rename: Shift + F6
+    - Refactor This: Ctrl + Shift + Alt + T
+  - Code Completion
+    - **Basic Code Completion**: Ctrl + Space
+    - SmartType code complement: Ctrl + Shift + Space
+    - **Complete Current Statement**: Ctrl + Shift + Enter
+    - Insert Live Template: Ctrl + J
+    - **Surround With**: Ctrl + Alt + T (if..else, try..catch, for, synchronized, etc.)
+    - Unwrap/Remove: Ctrl + Shift + Delete
+  - Folding
+    - Expand: Ctrl + =
+    - Collapse: Ctrl + -
+- Windows
+  - Hide Tool Windows: Shift + Esc
+  - Hide All Tool Windows: Ctrl + Shift + F12
+  - Close Edit Tab: Ctrl + F4
+  - Tool Windows
+    - Open Terminal: Alt + F12
+    - Open Project: Alt + 1
+    - Open REST Client (Search by Ctrl + Shift + A)
+- Run
+  - Run Current File: Alt + Shift + F10 
+  - Run Last: Shift + F10
+  - Run Menu: Shift + Alt + F10
+  - (MY) Debug Current File: Alt + Shift + F9
+  - Debug Last: Shift + F9
+  - Debug Menu: Shift + Alt + F9
+- Other
+  - New Folder: Alt + Insert / Ctrl + N ((MY) New: Alt + N)
+  - Show Context Action: Alt + Enter (Language Injection -> Inject JSON)
 
-- Go to Navigation Bar: Alt + Home
-- Go to Test: Ctrl + Shift + T
-- (MY) Go to Declare or Usage: Alt + B
-- Go to Implementation: Ctrl + Alt + B
-- Go to Super Method: Ctrl + U
-- Show Current File Location in Project: Alt + F1 -> project view
 
-### View
 
-- Display File Structure: Ctrl + F12
-- (MY) Display Recent files: Alt + E (Shift + Enter: open file in new window)
+## Plugins Shortcuts
 
-### Windows
+- SonarLint: Ctrl + Shift + S, Right Mouse Click --> SonarLint --> Analyze with SonarLint
+- Alibaba Java Coding Guidelines: Ctrl + Shift + Alt + J
+- String Manipulation: Alt + M
 
-- Window Up: Ctrl + Shift + Up
-- Window Down: Ctrl + Shift + Down
-- Current Window Maximum: Ctrl + Shift + F12
-- Close Current Window: Shift + Esc
-- Open Terminal Window: Alt + F12
-- Open Project Window: Alt + 1 
-- Open REST Client (Search by Ctrl + Shift + A)
 
-### Create File
 
-- (MY) New: Alt + N
+## Add My Shortcuts
 
-### Run
+- Recent Files: Alt + E (Original Ctrl + E, conflict with vim)
+- Go to Declaration or Usage: Alt + B (Original Ctrl + B, conflict with vim)
 
-- Run Current File: Alt + Shift + F10 
-- Run Last: Shit + F10
-- Run Menu: Shift + Alt + F10
-- (MY) Debug Current File: Alt + Shift + F9
-- Debug Last: Shift + F9
-- Debug Menu: Shift + Alt + F9
 
-Coding
 
-- Language Injection -> Inject JSON: Alt + Enter
 
 
-
----
-
-
-
-### Finding & Navigating
-
-**Double Shift** : Search everywhere
-
-**Ctrl + Shift + A** : Find Action.
-
-**Ctrl + N** : To quickly open any class.
-
-**Ctrl + Shift + N** : To quickly open any file.
-
-**Ctrl + Shift + Alt + N** : Find a class, file, or symbol.
-
-
-
-### View & Open
-
-Ctrl + E : View recent files.
-
-Ctrl + Shift + Alt + T : Refactor.
-
-Ctrl + Shift + F12 : Toggle maximize/minimize code window.
-
-### Code Editing
-
-**Ctrl + Space** : Basic code completion.
-
-Ctrl + Shift + Space : Smart code complement.
-
-Ctrl + Shift + Enter : complete statement.
-
-**Ctrl + P** : Parameter info (within method call arguments).
-
-**Ctrl + Q** : Quick documentation lookup.
-
-Ctrl+ mouse over code : Brief Info
-
-**Ctrl+F1** : Show descriptions of error or warning at caret.
-
-Alt+Insert : Generate code... (Getters, Setters, Constructors, hashCode/equals, toString).
-
-Ctrl+O : Override methods of super class or interface.
-
-Ctrl+I : Implement methods of super class .
-
-**Ctrl+Alt+T** : Surround with… (if..else, try..catch, for, synchronized, etc.)
-
-Ctrl+/  :  Comment/uncomment with line comment.
-
-Ctrl+Shift+/ : Comment/uncomment with block comment.
-
-?//Alt+Q : Context info.
-
-**Alt + Enter** : Show intention actions.
-
-**Ctrl+Alt+L** : Reformat code.
-
-**Ctrl+Alt+O** : Optimize imports. (remove unused imports)
-
-Ctrl+D : Duplicate current line or selected block.
-
-**Ctrl+Y** : Delete line at caret.
-
-Shift+Enter : Start new line.
-
-**Ctrl+Shift+U** : Toggle case for word at caret or selected block
-
-Ctrl + W (Ctrl + Shift + W) : Extend or shrink selection.
-
-Ctrl+Shift+]/[ : Select till code block end/start
-
-Ctrl + Shift + F7 : Highlight selected fragment in a file.
-
-Ctrl+Delete : Delete to word end;
-
-Ctrl+Backspace : Delete to word start.
-
-Ctrl + -  / Ctrl + + : Expand/collapse code block
-
-**Ctrl+F4** : Close active editor tab. 
-
-**Alt + F7** : Find Usages. To find all places where a particular class, method or variable is used. 
-
-Ctrl + F7 : Find Usages in current file.
-
-Ctrl + Alt + F7 : Show usages.
-
-Shift+F6 : Rename.
-
-**Ctrl + Shift + up** / down : Exchange line.
-
-**Alt + Caps Lock**: Select vertically.
-
-
-
-### Navigation
-
-Alt + up / down : To next/previous method.
-
-
-
-### Search/Replace
-
-**Ctrl + F** : Find string.
-
-**F3**/ Shift + F3 : Find next / Find previous.
-
-**Ctrl + R** : Replace string.
-
-**Ctrl + Shift + F** : Find in path.
-
-Ctrl + Shift + R : Replace in path.
-
-
-
-### General
-
-**Ctrl + Alt+ S** : Settings
-
-
-
----------
-
-
+## Functions
 
 快速修正（创建未声明的方法和变量）
 
