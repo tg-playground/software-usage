@@ -17,6 +17,7 @@
   - [x] **PlantUML**
   - [x] **Lombok**
   - [x] **Key promoter**   -- tip your using shortcut key.
+  - [x] **mybatisx** -- redirect between mapper interfaces and mapper xml
   - idea-gitignore
   - EasyCode
   - Free Mybatis plugin   -- navigating interface to xml in MyBatis.
