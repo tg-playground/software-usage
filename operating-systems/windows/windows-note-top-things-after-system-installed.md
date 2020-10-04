@@ -91,7 +91,10 @@ languages
   - Verify by `java -version`
 - Python
 - Node.js
-  - Install Hexo `npm install hexo-cli -g`
+  - Update `npm` mirror: 
+    - Setting: `npm config set registry https://registry.npm.taobao.org`
+    - Verify: `npm config get registry`
+  - Install Hexo: `npm install hexo-cli -g`
 
 project Management
 
