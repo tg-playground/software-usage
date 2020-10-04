@@ -8,6 +8,8 @@ Windows + A：打开操作中心。
 
 Windows + D：回到桌面。（重复按一次则回到上一次软件窗口。）
 
+Windows + M: 最小化所有软件窗口。
+
 Windows + E：打开文件夹（文件管理器）。
 
 Windows + G：录制桌面
@@ -30,7 +32,7 @@ Windows + W：打开系统工作空间。（便利贴，画板）
 
 Windows + X：打开系统（工具和设置）快捷窗口。
 
-Windows + ; ：调用表情包（英文输入法状态下使用）
+Windows + ; or . ：调用表情包（英文输入法状态下使用）
 
 Windows + Shift + S：调用系统截图工具。（截图后 ctrl + V 可粘贴使用）
 
