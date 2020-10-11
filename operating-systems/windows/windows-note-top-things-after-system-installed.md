@@ -28,11 +28,15 @@ Win + x --> settings --> Date and Language --> left panel: Language --> Add pref
 
 ### Update System Driver
 
-Installing `DriverGenius` software or downloaded drivers exe
+- Using `DriverGenius` or 联想电脑管家 to install drivers.
+
+- Directly installing downloaded drivers exe.
 
 ### Update hosts
 
-See config
+`C:\Windows\System32\drivers\etc\hosts`
+
+hosts example to see config
 
 ### Update Windows App Color to dark color
 
@@ -55,6 +59,7 @@ IM
   - Update file save path
 - QQ
   - Update file save path
+- Dingtalk
 
 File Viewer
 
@@ -74,6 +79,10 @@ Office
 - Microsoft Office
 - QTTabBar
   - Setting: Open File Explorer -> menu: View -> Option -> QTTabBar
+
+Work
+
+- Pomotodo
 
 ## Installing Professional Software
 
@@ -111,6 +120,7 @@ IDE
 
 - Intellij IDEA
   - other settings(New Projects Settings) -> settings for new project -> Build, Execution, Deployement -> Build Tools -> Maven -> maven home directory, user setting file
+- WebStorm
 - Eclipse
 - MyEclipse
 
@@ -131,6 +141,12 @@ Others
 - Xshell
 - Xftp
 - TeamViewer
+
+ELK
+
+- elasticsearch
+- kibana
+- logstash
 
 ### Service
 
