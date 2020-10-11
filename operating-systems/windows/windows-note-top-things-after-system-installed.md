@@ -184,6 +184,8 @@ languages
     - Open cmd with administrator
     - Setting: `npm config set registry https://registry.npm.taobao.org`
     - Verify: `npm config get registry`
+    - Setting: `npm config set cache <path> --global`
+    - Verify: `npm config list`
   - Install Hexo
     - Installing: `npm install hexo-cli -g`
     - Verify by `hexo -v`
