@@ -30,8 +30,8 @@ Content
   - Build Tools
     - Maven
       - [x] Maven home directory: $M2_HTOM
-      - [x] User settings file: $M2_HOME/conf/settings.xlm
-      - [x] Local repository: default
+      - [x] User settings file: $M2_HOME/conf/settings.xml
+      - [x] Local repository: `D:\$UserData\.m2\repository`
   - Compiler
     - [x] Project bytecode version: 8
   - [ ] Code completion
