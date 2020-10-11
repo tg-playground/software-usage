@@ -52,8 +52,8 @@ git clean -n
 git clean -f
 # To remove directories
 git clean -f -d
-# To remove ignored files
-git clean -f -X
+# To remove ignored files and directories
+git clean -f -d -X
 # To remove ignored and non-ignored files
 git clean -f -x
 
