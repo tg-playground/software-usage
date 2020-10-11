@@ -18,7 +18,7 @@ Content
 
 ## System Settings
 
-### Backup
+### Backup system in external disk
 
 Win + x --> settings --> update and security --> backup --> Go to Backup and Restore(Windows7) --> Set up backup --> Let me choose
 
