@@ -184,3 +184,54 @@ git checkout -b <new_branch> <from_branch>
 git push origin <new_branch>
 ```
 
+### Rebase
+
+rebase vs merge
+
+```
+git pull = git fetch + git merge
+
+git pull --rebase = git fetch + git rebase
+git pull = git fetch + git merge
+```
+
+1. before rebase, the topic branch
+
+```
+          A---B---C topic
+         /
+    D---E---F---G master
+```
+
+2. after rebase, the topic branch
+
+
+```
+                  A'--B'--C' topic
+                 /
+    D---E---F---G master
+```
+
+Example: rebase from origin master to the current branch
+
+```shell
+# method 1
+git pull --rebase origin master
+# if occur errors
+git rebase --continue
+
+# method 2
+git pull origin master:master && git rebase origin/master
+# if occur errors
+git rebase --continue
+
+# method 3
+git fetch origin master:master && git rebase origin/master
+# if occur errors
+git rebase --continue
+```
+
+References
+
+- [git rebase命令](https://www.yiibai.com/git/git_rebase.html)
+- [git-rebase - doc](https://git-scm.com/docs/git-rebase)
