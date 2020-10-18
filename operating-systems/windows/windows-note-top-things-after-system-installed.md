@@ -195,7 +195,7 @@ project Management
 - apache maven
   - Add M2_HOME system variable to path
   - Verify by `mvn -version`
-  - Config `/conf/settings.xml`, add aliyun mirror
+  - Config `/conf/settings.xml`, set `<mirror>` to Aliyun mirror , set `<localRepository>` to `D:\$UserData\.m2\repository`.
 - [x] git
   - generate key in ~/.ssh/id_rsa, id_rsa_pub
   - Add public key to GitHub
