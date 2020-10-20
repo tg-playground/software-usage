@@ -23,9 +23,15 @@ Press `SHIFT+CTRL+A` (Win/*nix) or `Command+SHIFT+A` (Mac) to open a pop-up wind
 
 Find and enabled this option `compiler.automake.allow.when.app.running`
 
+4. Spring Boot Run/Debug configuration
+
+To change `On Update action` in the Run/Debug configuration.
+
+On Update action: update classes and resources.
+
+
+
 Done. Now, the hot swapping & static files auto reload should be enabled.
-
-
 
 ---
 
