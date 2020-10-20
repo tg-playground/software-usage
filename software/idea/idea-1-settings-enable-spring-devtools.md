@@ -1,5 +1,36 @@
 # Idea Enable Spring DevTools
 
+1. Add Spring Boot Dev Tools
+
+`pom.xml`
+
+```
+<!-- hot swapping, enable live reload -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-devtools</artifactId>
+    <optional>true</optional>
+</dependency>
+```
+
+2. Build Project Automatically
+
+File –> Setting –> Build, Execution, Deployment –> Compiler –> check this `Build project automatically`
+
+3. Intellij Registry
+
+Press `SHIFT+CTRL+A` (Win/*nix) or `Command+SHIFT+A` (Mac) to open a pop-up windows, type `registry`
+
+Find and enabled this option `compiler.automake.allow.when.app.running`
+
+Done. Now, the hot swapping & static files auto reload should be enabled.
+
+
+
+---
+
+
+
 Follow below simple steps, you will be up and running in less than 2 minutes.
 
 1. Press Ctrl+Shift+A
