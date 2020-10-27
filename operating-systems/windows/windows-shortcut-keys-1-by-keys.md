@@ -32,6 +32,8 @@ Windows + W：打开系统工作空间。（便利贴，画板）
 
 Windows + X：打开系统（工具和设置）快捷窗口。
 
+Windows + V：打开历史剪切板（Clipboard）
+
 Windows + ; or . ：调用表情包（英文输入法状态下使用）
 
 Windows + Shift + S：调用系统截图工具。（截图后 ctrl + V 可粘贴使用）
