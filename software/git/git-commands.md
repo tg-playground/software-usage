@@ -167,21 +167,23 @@ git show <commit_hash>:/path/to/file
 # list
 git branch
 git branch -a
+
 # create
 git branch {new_branch_name}
 git checkout -b {new_branch_name}
+# Create a branch from another branch
+git checkout -b <new_branch> <from_branch>
+git push origin <new_branch>
+
 # delete
 git branch -d {branch_name}
+
 # switch
 git checkout {branch_name}
 git checkout -
 
 # Fetch branch
 git fetch <remote_branch>:<local_branch>
-
-# Create a branch from another branch
-git checkout -b <new_branch> <from_branch>
-git push origin <new_branch>
 ```
 
 ### Rebase
