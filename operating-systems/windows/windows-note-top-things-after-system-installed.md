@@ -184,7 +184,7 @@ languages
     - Open cmd with administrator
     - Setting: `npm config set registry https://registry.npm.taobao.org`
     - Verify: `npm config get registry`
-    - Setting: `npm config set cache D:\$UserData\AppData\Roaming\npm-cache --global`
+    - Setting: `npm config set cache D:\.user\AppData\Roaming\npm-cache --global`
     - Verify: `npm config list`
   - Install Hexo
     - Installing: `npm install hexo-cli -g`
@@ -195,7 +195,7 @@ project Management
 - apache maven
   - Add M2_HOME system variable to path
   - Verify by `mvn -version`
-  - Config `/conf/settings.xml`, set `<mirror>` to Aliyun mirror , set `<localRepository>` to `D:\$UserData\.m2\repository`.
+  - Config `/conf/settings.xml`, set `<mirror>` to Aliyun mirror , set `<localRepository>` to `D:\.user\.m2\repository`.
 - [x] git
   - generate key in ~/.ssh/id_rsa, id_rsa_pub
   - Add public key to GitHub
