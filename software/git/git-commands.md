@@ -45,17 +45,27 @@ git add -A
 git reset <file_path>
 git restore --staged <file_path>
 
-# remove Untracked files
 # see which files will be deleted before you run the actual command
 git clean -n
+
+# remove Untracked files
 # delete the files for real
 git clean -f
-# To remove directories
+git clean -f -n
+# To remove file and directories
 git clean -f -d
+git clean -f -d -n
+
+# remove Ignore files
 # To remove ignored files and directories
+git clean -f -X
 git clean -f -d -X
-# To remove ignored and non-ignored files
+git clean -f -d -X -n
+
+# To remove both ignored and non-ignored files
 git clean -f -x
+git clean -f -d -x
+git clean -f -d -x -n
 
 # stash
 # to record the current state of the working directory
