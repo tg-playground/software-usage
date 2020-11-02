@@ -181,9 +181,13 @@ git branch -a
 # create
 git branch {new_branch_name}
 git checkout -b {new_branch_name}
+
 # Create a branch from another branch
 git checkout -b <new_branch> <from_branch>
+git checkout -b <new_branch> origin/<from_branch>
+git checkout -t origin/<from_branch>
 git push origin <new_branch>
+
 
 # delete
 git branch -d {branch_name}
