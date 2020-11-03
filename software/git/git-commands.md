@@ -76,6 +76,7 @@ git stash list
 git stash show
 # restore from stash
 git stash apply
+git stash apply {stashID}
 # Remove a single stashed state from the stash list and apply it on top
 git stash pop
 # Remove a single stash entry from the list of stash entries.
