@@ -14,6 +14,10 @@ Content
     - Editor Tabs
       - [x] Uncheck Show tabs in one row
     
+  - File Encodings
+  
+    - Global Encoding: UTF-8, Project Encoding: UTF-8, Properties Files: UTF-8
+  
   - [x] File and Code Templates
   
     ```
