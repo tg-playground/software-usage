@@ -111,6 +111,8 @@ Ctrl + Alt + Right => Ctrl + Alt + F3
   - (MY) Debug Current File: Alt + Shift + F9
   - Debug Last: Shift + F9
   - Debug Menu: Shift + Alt + F9
+- Recompile
+  - **Recompile Current Source Code File**: Ctrl + Shift + F9 
 - Other
   - New Folder: Alt + Insert / Ctrl + N ((MY) New: Alt + N)
   - Show Context Action: Alt + Enter (Language Injection -> Inject JSON)
