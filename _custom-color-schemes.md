@@ -1,9 +1,32 @@
-# custom Color Schemes
+# Custom Color Schemes
 
 Content
 
-- Dark Scheme
-- Green Scheme
+- Theme Color Choice
+- Theme Schema
+  - Dark Scheme
+  - Green Scheme
+- Common Themes of Software
+  - Operating systems
+  - Web browsers
+  - IDEs
+  - Editors
+  - Development Tools
+  - PDF Viewers
+
+## Theme Color Choice
+
+Using white background color 
+
+- Daytime
+- Bright light environment
+
+Using dark background color
+
+- Nighttime
+- Weak light environment
+
+## Theme Schema
 
 ### Dark Scheme
 
@@ -24,3 +47,52 @@ Text Color: `#ffffff`, `#EEEEEE` (white)
 Background Color: `#C7EDCC` (green)
 
 Text Color: `#000000` (dark)
+
+## Common Themes of Software
+
+### Operating systems
+
+file explorer (Personalization -> Colors)
+
+- white
+  - Light
+- dark
+  - Dark
+
+### Web browsers
+
+Chrome
+
+- white
+  - Default
+- dark
+  - Just Black
+
+### IDEs
+
+Intellij IDEA
+
+- white
+  - Intellij Light
+- dark
+  - Darcula
+
+### Editors
+
+Sublime
+
+Typora
+
+- white
+  - GitHub
+- dark
+  - Night
+
+## Development Tools
+
+Postman
+
+## PDF Viewers
+
+SumatraPDF
+
