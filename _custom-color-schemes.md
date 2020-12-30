@@ -52,7 +52,7 @@ Text Color: `#000000` (dark)
 
 ### Operating systems
 
-file explorer (Personalization -> Colors)
+File Explorer (Personalization -> Colors)
 
 - white
   - Light
@@ -61,7 +61,7 @@ file explorer (Personalization -> Colors)
 
 ### Web browsers
 
-Chrome
+Chrome (Settings -> Appearance -> Theme)
 
 - white
   - Default
@@ -70,7 +70,7 @@ Chrome
 
 ### IDEs
 
-Intellij IDEA
+Intellij IDEA (Settings -> Appearance & Behavior -> Appearance -> Theme)
 
 - white
   - Intellij Light
@@ -79,9 +79,14 @@ Intellij IDEA
 
 ### Editors
 
-Sublime
+Sublime(Preferences -> Color Schema)
 
-Typora
+- white
+  - Celeste
+- dark
+  - Monokai
+
+Typora (Themes)
 
 - white
   - GitHub
@@ -90,7 +95,9 @@ Typora
 
 ## Development Tools
 
-Postman
+Postman (File -> Settings -> Themes)
+
+
 
 ## PDF Viewers
 
