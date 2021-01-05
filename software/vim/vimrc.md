@@ -19,6 +19,8 @@ set shiftwidth=4    " Indents will have a width of 4.
 set softtabstop=4   " Sets the number of columns for a TAB.
 set expandtab       " Expand TABs to spaces.
 
+"--set copy to system clipboard (vim >=7.3.74)--"
+set clipboard=unnamedplus
 
 "--auto indent--"
 set autoindent      "auto indent"
