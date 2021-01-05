@@ -1,6 +1,14 @@
 # Intellij Idea Settings
 
-Content
+## Structure for New Projects
+
+File -> New Project Settings -> Structure for New Projects
+
+- Project Settings --> Project --> Project SDK: 1.8, Project language level: 8
+
+## Settings for New Projects
+
+File -> New Project Settings -> Settings for New Projects
 
 - Appearance
   - Font Size
