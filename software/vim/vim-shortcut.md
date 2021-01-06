@@ -72,3 +72,8 @@ Ctrl + w // remove content in ""
 :{start_line},{end_line}s/{search_val}/{replace_val}/g
 ```
 
+
+
+## References
+
+- [Vim Cheat Sheet](https://vim.rtorr.com/)
