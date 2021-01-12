@@ -176,7 +176,11 @@ git show <commit_hash>:/path/to/file
 
 ```shell
 # list
+# list local branches
 git branch
+# list remote branches
+git branch -r
+# list all local and remote branches
 git branch -a
 
 # create
