@@ -46,12 +46,25 @@ m{mark_char}, '{mark_char}
 ctrl f, ctrl b, ctrl d, ctrl u
 
 // select, cut, copy, paste
-v, V, x, y, yy, p, 10+p
-dd, 10+dd, x, dw, 
+
+// select
+v, V
+
+// copy
+y, yy
+
+// paste
+p, 10+p
+
+// delete
+dd, 10+dd, x, dw, // delete
 df {char} // delete from current location forward to input char
 dt {char} // delete from cuurent location back to input char
 di", // remove content in "" 
 da" // remove content and ""
+cc // change current line
+ciw // change inner word
+caw // change a word
 
 // undo, redo
 u, ctrl r
