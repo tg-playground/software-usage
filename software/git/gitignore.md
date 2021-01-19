@@ -56,3 +56,9 @@ target
 # Project Generating Files End 
 ```
 
+Note projects
+
+```
+.obsidian
+```
+
