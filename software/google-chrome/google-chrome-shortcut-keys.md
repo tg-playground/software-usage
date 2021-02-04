@@ -20,6 +20,8 @@ Ctrl + Shift + Tab：切换到上一个标签页。（需打开两个以上标�
 
 Ctrl + D：保存当前网址到书签。
 
+Ctrl + Shift + D: Bookmark all tabs
+
 Ctrl + 1：切换到第一个标签页。（Ctrl + 2 第二个标签页, ...依次类推。）
 
 **Alt + ←**：后退到前一个浏览网址。

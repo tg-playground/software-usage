@@ -17,12 +17,23 @@ ctrl + End
 ## File Explorer
 
 ctrl + shift + N：新建文件夹
+
 ctrl + D：删除文件/文件夹
+
+ctrl + E: Select the search box
+
+ctrl + N: open new file explorer windows
+
 f2：重命名文件/文件夹
+
 f4：显示常用文件路径列表
+
 alt + D：选中地址栏
+
 alt + P：显示预览面板
+
 alt + enter：显示文件的属性。
+
 shift + 右键文件：拷贝文件路径。
 
 ## Visual Desktop
