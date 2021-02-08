@@ -14,6 +14,9 @@ C:\Windows\System32\drivers\etc\hosts
 127.0.0.1 www.baidu.com
 127.0.0.1 douyu.com
 127.0.0.1 www.douyu.com
+127.0.0.1 huya.com
+127.0.0.1 www.huya.com
+
 127.0.0.1 www.youtube.com
 127.0.0.1 youtube.com
 127.0.0.1 www.bilibili.com
@@ -22,5 +25,8 @@ C:\Windows\System32\drivers\etc\hosts
 # Speed Up to connect GitHub from China
 199.232.69.194 github.global.ssl.fastly.net
 140.82.114.3 github.com
+
+# Local Domain Names
+127.0.0.1 example1.com example2.com example3.com
 ```
 
