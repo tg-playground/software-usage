@@ -22,6 +22,7 @@ baidu.com,
 douban.com,
 m.douban.com,
 zhihu.com,
+bilibili.com,
 cn.bing.com,
 ```
 
