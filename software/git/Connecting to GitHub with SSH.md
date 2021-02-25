@@ -144,6 +144,16 @@ To configure your GitHub account to use your new (or existing) SSH key, you'll a
 
 After adding a new SSH key to your GitHub account, you can reconfigure any local repositories to use SSH. For more information, see "[Switching remote URLs from HTTPS to SSH](https://docs.github.com/en/articles/changing-a-remote-s-url/#switching-remote-urls-from-https-to-ssh)."
 
+### Which remote URL should I use?
+
+There are several ways to clone repositories available on GitHub.
+
+When you view a repository while signed in to your account, the URLs you can use to clone the project onto your computer.
+
+- Cloning with HTTPS URLs: Using GitHub username and password/personal access token (PAT).
+
+- Cloning with SSH URLs: Using password and must provide your SSH key passphrase.
+
 ### Switching remote URLs from HTTPS to SSH
 
 1. Open Git Bash.
@@ -220,6 +230,15 @@ You may see a warning like this:
 ```
 
 4. Verify that the resulting message contains your username. If you receive a "permission denied" message, see ["Error: Permission denied (publickey)"](https://docs.github.com/en/articles/error-permission-denied-publickey).
+
+
+
+## Appendixes
+
+- [GitHub's SSH key fingerprints - GitHub Docs](https://docs.github.com/en/github/authenticating-to-github/githubs-ssh-key-fingerprints)
+- [Which remote URL should I use? - GitHub Docs](https://docs.github.com/en/github/using-git/which-remote-url-should-i-use)
+- [Using SSH over the HTTPS port - GitHub Docs](https://docs.github.com/en/github/authenticating-to-github/using-ssh-over-the-https-port)
+- [Working with SSH key passphrases - GitHub Docs](https://docs.github.com/en/github/authenticating-to-github/working-with-ssh-key-passphrases)
 
 ## References
 
