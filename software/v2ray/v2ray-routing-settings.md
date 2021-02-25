@@ -18,11 +18,13 @@ const520.com,
 ## Direct Domain or IP
 
 ```
+cn.bing.com,
 baidu.com, 
 douban.com,
 m.douban.com,
 zhihu.com,
 bilibili.com,
-cn.bing.com,
+youdao.com,
+dict.youdao.com,
 ```
 
