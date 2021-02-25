@@ -4,21 +4,33 @@
 - [Plugin Installation in IDEA](#piii)
 
 - Style Plugins
-  - activate-power-mode   -- edit special effects.
-  - Power mode II    -- edit special effects.
   - Background Image Plus  -- Set window backgound picture.
-  - Grep console   -- Custom console log color.
+  - [x] **Grep console**   -- Custom console log color.
+  - [x] **Extra Icons** -- provides new icons for special files such as GitLab and Travis configuration.
+  - Code Style
+    - [x] **Indent Rainbow**
+    - [x] **Rainbow Brackets**
+  - //Edit special effects
+    - activate-power-mode   -- edit special effects.
+    - Power mode II    -- edit special effects.
 - Function Plugins
-  - [x] **SonarLint** (Ctrl + Shift + S)
-  - [x] **Alibaba Java Coding Guidelines**  -- code specification check. (Ctrl + Shift + Alt + J) （**Setting: 切换语言至英文**）
-  - [x] **JSON Viewer** (Find Action)
-  - [x] **String Manipulation**  -- string text format conversion. （Alt + M）
-  - [x] **IdeaVim**
-  - [x] **PlantUML**
-  - [x] **Lombok**
-  - [x] **Key promoter**   -- tip your using shortcut key.
-  - [x] **mybatisx** -- redirect between mapper interfaces and mapper xml
-  - idea-gitignore
+  - Code Check
+    - [x] **SonarLint** (Ctrl + Shift + S)
+    - [x] **Alibaba Java Coding Guidelines**  -- code specification check. (Ctrl + Shift + Alt + J) （**Setting: 切换语言至英文**）
+  - Coding
+    - [x] **MybatisX** -- redirect between mapper interfaces and mapper xml
+  - String, JSON, Regexp
+    - [x] **Json Parser** (Find Action, Ctrl + Shift + A). 
+    - JSON Viewer (Find Action, Ctrl + Shift + A)
+    - [x] **RegexpTester** (Find Action, Ctrl + Shift + A)
+    - [x] **String Manipulation**  -- string text format conversion. （Alt + M）
+  - Tools
+    - [x] **IdeaVim**
+    - [x] **IdeaVimExtension** -- auto switch input keyborad extension for IdeaVim
+    - [x] **PlantUML**
+    - [x] **Lombok**
+    - [x] **Key promoter**   -- tip your using shortcut key.
+    - [x] **.ignore** -- tip for create .gitignore
   - EasyCode
   - Free Mybatis plugin   -- navigating interface to xml in MyBatis.
   - MyBatis Log Plugin  -- convert console log sql sentence.
@@ -30,9 +42,9 @@
   - Markdown Navigator  -- Using Markdown in IDEA.
   - Jindent-Source Code Formatter  -- Custom comment format.
   - Maven Helper
-  - MybatisX  -- Mybatis helper
   - GenerateAllSetter  -- Quickly genereating object all setter methods.
 - Client Plugins
+  - Jenkins Control Plugin
   - mongo4idea  -- MongoDB Client
   - iedis  -- Redis Client.
 ### Main
