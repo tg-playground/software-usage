@@ -1,6 +1,14 @@
 # IDEA Vim Plugin Configurations
 
-## Plugins
+Content
+
+- IDEA Vim Plugins
+- IDEA vim's configuration file
+- IdeaVim Shortcut Conflicts
+- clipboard
+- Auto Switch Input Keyboard
+
+## IDEA Vim Plugins
 
 - IdeaVim
 - IdeaVimExtension
@@ -51,9 +59,7 @@ References
 - [Vim Cheat Sheet](https://vim.rtorr.com/)
 - [vim-shortcuts.md](https://gist.github.com/tuxfight3r/0dca25825d9f2608714b)
 
-## Configuring on Windows
-
-### clipboard
+## clipboard
 
 `C:\Users\Tom\.ideavimrc`
 
@@ -62,7 +68,7 @@ References
 set clipboard=unnamedplus
 ```
 
-### Auto Switch Input Keyboard Configuration
+## Auto Switch Input Keyboard Configuration
 
 Plugin: IdeaVimExtension
 
@@ -72,17 +78,6 @@ Plugin: IdeaVimExtension
 # auto switch input keyboard
 set keep-english-in-normal
 set keep-english-in-normal-and-restore-in-insert
-```
-
-
-
-## Configuring on MacOS or Linux
-
-`~/.ideavimrc`
-
-```
-"--set copy to system clipboard (vim >=7.3.74)--"
-set clipboard=unnamedplus
 ```
 
 ## References
