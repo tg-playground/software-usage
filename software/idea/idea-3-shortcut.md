@@ -12,6 +12,10 @@ Ctrl + Alt + Left => Ctrl + Alt + F2
 
 Ctrl + Alt + Right => Ctrl + Alt + F3
 
+### To Disable Other Software Global shortcuts
+
+- QQ:设置--> 基本设置 --> 热键 --> 设置热键 --> 取消热键（选中后按Esc）
+
 ## Shortcuts
 
 - Settings
@@ -24,7 +28,7 @@ Ctrl + Alt + Right => Ctrl + Alt + F3
     - **Go to Declaration or Usage**: Ctrl + B ((MY) **Go to Declare or Usage**: Alt + B)
     - **Go to Type Declaration**: Ctrl + Shift + B //Go to class definition
     - **Go to Implementation**: Ctrl + Alt + B
-    - **Go to Super Method**: Ctrl + U
+    - **Go to Super Method**: Ctrl + U => (MY) **Go to Super Method**: Alt + U
     - Next Method: Alt + Down
     - Previous Method: Alt + Up
     - File Structure: Ctrl + F12
