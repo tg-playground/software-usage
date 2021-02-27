@@ -7,6 +7,7 @@ Content
 - IdeaVim Shortcut Conflicts
 - clipboard
 - Auto Switch Input Keyboard
+- Jump
 
 ## IDEA Vim Plugins
 
@@ -80,6 +81,10 @@ Plugin: IdeaVimExtension
 set keep-english-in-normal
 set keep-english-in-normal-and-restore-in-insert
 ```
+
+## Jump
+
+Using the IDEA [AceJump](https://plugins.jetbrains.com/plugin/7086-acejump) plugin.
 
 ## References
 
