@@ -12,6 +12,7 @@ Content
 
 - IdeaVim
 - IdeaVimExtension
+- AceJump
 
 ## IDEA vim's configuration file
 

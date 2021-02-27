@@ -17,7 +17,12 @@
   - Code Check
     - [x] **SonarLint** (Ctrl + Shift + S)
     - [x] **Alibaba Java Coding Guidelines**  -- code specification check. (Ctrl + Shift + Alt + J) （**Setting: 切换语言至英文**）
-  - Coding
+  - Edit Helper
+    - [x] **IdeaVim**
+    - [x] **IdeaVimExtension** -- auto switch input keyborad extension for IdeaVim
+    - [x] **AceJump**
+    - IdeaVim-EasyMotion
+  - Helper For Techniques
     - [x] **MybatisX** -- redirect between mapper interfaces and mapper xml
   - String, JSON, Regexp
     - [x] **Json Parser** (Find Action, Ctrl + Shift + A). 
@@ -25,12 +30,11 @@
     - [x] **RegexpTester** (Find Action, Ctrl + Shift + A)
     - [x] **String Manipulation**  -- string text format conversion. （Alt + M）
   - Tools
-    - [x] **IdeaVim**
-    - [x] **IdeaVimExtension** -- auto switch input keyborad extension for IdeaVim
     - [x] **PlantUML**
     - [x] **Lombok**
     - [x] **Key promoter**   -- tip your using shortcut key.
     - [x] **.ignore** -- tip for create .gitignore
+  - Selenium UI Testing
   - EasyCode
   - Free Mybatis plugin   -- navigating interface to xml in MyBatis.
   - MyBatis Log Plugin  -- convert console log sql sentence.
