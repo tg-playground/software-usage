@@ -21,6 +21,7 @@ File -> New Project Settings -> Settings for New Projects
   - General
     - Editor Tabs
       - [x] Uncheck Show tabs in one row
+      - [x] Uncheck Match case
     
   - File Encodings
   
