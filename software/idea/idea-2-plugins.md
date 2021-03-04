@@ -29,11 +29,13 @@
     - JSON Viewer (Find Action, Ctrl + Shift + A)
     - [x] **RegexpTester** (Find Action, Ctrl + Shift + A)
     - [x] **String Manipulation**  -- string text format conversion. （Alt + M）
+  - Git
+    - [x] **.ignore** -- tip for create .gitignore
+    - [ ] Git Commit Template -- Generating git commit message
   - Tools
     - [x] **PlantUML**
     - [x] **Lombok**
     - [x] **Key promoter**   -- tip your using shortcut key.
-    - [x] **.ignore** -- tip for create .gitignore
   - Selenium UI Testing
   - EasyCode
   - Free Mybatis plugin   -- navigating interface to xml in MyBatis.
