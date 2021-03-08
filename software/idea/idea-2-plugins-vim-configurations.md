@@ -28,7 +28,7 @@ Settings --> Editor --> Vim Emulation --> Shortcut Conflicts for Active Keymap
 | Ctrl+2       | Send to Right                       | Undefined       |                 |                                                              |
 | Ctrl+Shift+2 | Toggle Bookmark 2                   | Undefined       |                 |                                                              |
 | Ctrl+Shift+6 | Toggle Bookmark 6                   | Undefined       |                 |                                                              |
-| Ctrl+A       | Select All                          | Vim             |                 | Increment the number at cursor                               |
+| Ctrl+A       | Select All                          | Vim             | Undefined       | Increment the number at cursor                               |
 | Ctrl+B       | Source Editor                       | Vim             |                 | move back one full screen                                    |
 | Ctrl+C       | Copy                                | Vim             |                 | close the command buffer                                     |
 | Ctrl+D       | Send EOF                            | Vim             |                 | Move down by half a page                                     |
@@ -51,7 +51,7 @@ Settings --> Editor --> Vim Emulation --> Shortcut Conflicts for Active Keymap
 | Ctrl+U       | Go to Super Method                  | Vim             |                 | move back 1/2 a screen                                       |
 | Ctrl+V       | Paste                               | Vim             |                 | start visual block mode                                      |
 | Ctrl+W       | Extend Selection                    | Vim             |                 | delete word before the cursor during insert mode             |
-| Ctrl+X       | Cut                                 | Vim             |                 | Decrement the number at cursor                               |
+| Ctrl+X       | Cut                                 | Vim             | Undefined       | Decrement the number at cursor                               |
 | Ctrl+Y       | Delete Selected Rows                | Vim             |                 | move screen up one line (without moving cursor)              |
 | Ctrl+[       | Move Caret to Code Block Start      | Vim             |                 | NULL                                                         |
 | Ctrl+]       | Move Caret to Code Block End        | Vim             |                 | jump to the tag under cursor                                 |
