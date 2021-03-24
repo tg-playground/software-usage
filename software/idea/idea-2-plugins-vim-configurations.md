@@ -46,7 +46,7 @@ Settings --> Editor --> Vim Emulation --> Shortcut Conflicts for Active Keymap
 | Ctrl+P       | Show/Hide path text                 | Vim             |                 | insert (auto-complete) previous match before the cursor during insert mode |
 | Ctrl+Q       | Quick JavaDoc                       | Undefined       | IDE             | NULL                                                         |
 | Ctrl+R       | Replace...                          | Undefined       | Vim             | redo                                                         |
-| Ctrl+S       | Save All                            | Vim             |                 | NULL                                                         |
+| Ctrl+S       | Save All                            | Vim             | IDE             | NULL                                                         |
 | Ctrl+T       | Update Project                      | Vim             |                 | indent (move right) line one shiftwidth during insert mode   |
 | Ctrl+U       | Go to Super Method                  | Vim             |                 | move back 1/2 a screen                                       |
 | Ctrl+V       | Paste                               | Vim             |                 | start visual block mode                                      |
