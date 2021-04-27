@@ -12,8 +12,9 @@ Java Project
 # temporary files
 *.temp
 
-# Project Generating Files Begin 
-# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+###############################################
+# Project Generating Files                    #
+###############################################
 
 # Compiled file
 *.class
@@ -36,24 +37,47 @@ Java Project
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-# ignore Maven generated target folders
-target
+### Maven ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# ignore eclipse files
+### Eclipse ###
 .project
 .classpath
 .settings
 .metadata
 
-# ignore idea files
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
 .idea
+*.iws
 *.iml
+*.ipr
 
-# vs code files
-.vscode
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>
-# Project Generating Files End 
+### VS Code ###
+.vscode/
+
+###############################################
 ```
 
 Note projects
