@@ -45,8 +45,11 @@ File -> New Project Settings -> Settings for New Projects
       - [x] Maven home directory: $M2_HTOM
       - [x] User settings file: $M2_HOME/conf/settings.xml
       - [x] Local repository: `D:\$UserData\.m2\repository`
+      - Importing
+        - [x] JDK for importer: 1.8
   - Compiler
-    - [x] Project bytecode version: 8
+    - Java Compiler
+      - [x] Project bytecode version: 8
   - [ ] Code completion
   - File Template
   - Live Templates
