@@ -8,7 +8,7 @@ Download the [installer](https://github.com/hovancik/stretchly/releases/download
 
 ### Chocolatey
 
-You can also install *Stretchly* with [Chocolatey](https://chocolatey.org/) by running the following command from the command line or from PowerShell (Run as administrator).
+You can also install *Stretchly* with [Chocolatey](https://chocolatey.org/) by running the following command from the command line or from PowerShell or CMD (**NOTE: Run as administrator**).
 
 ```
 choco install stretchly
