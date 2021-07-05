@@ -108,6 +108,8 @@ Ctrl + Alt + Right => Ctrl + Alt + F3
     - Open Terminal: Alt + F12
     - Open Project: Alt + 1
     - Open REST Client (Search by Ctrl + Shift + A)
+  - Open File in Split Tab: Shift + Enter (or Right click -> Open in right split)
+  - Close Split Tab: Ctrl + Shift + A, unsplit (or Window -> Editor Tabs -> Unsplit)
 - Run
   - Run Current File: Alt + Shift + F10 
   - Run Last: Shift + F10
